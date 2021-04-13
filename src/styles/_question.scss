@@ -34,6 +34,10 @@
     color: $five-row-color;
   }
 
+  &__form-email:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+
   &__form-text {
     width: 438px;
     height: 128px;
